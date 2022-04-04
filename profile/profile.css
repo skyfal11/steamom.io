@@ -1,0 +1,230 @@
+body{
+    background-color: #171a21;
+}
+.boxes{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    
+    background: #1b2838;
+}
+
+.logo{
+    height: 150px; 
+    position: absolute;
+    width: 183px;
+    height: 157px;
+    left: 37px;
+    top: 30px;
+}
+ 
+
+.profile, .worcshop, .soobchestvo, .ogedonia, .help{
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.profile{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 1730px;
+    top: 10px;
+}
+
+.gedonia{
+    position: absolute;
+    width: 286px;
+    height: 101px;
+    left: 221px;
+    top: 50px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 101px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.worcshop{
+    position: absolute;
+    width: 141px;
+    height: 34px;
+    left: 582px;
+    top: 100px;
+}
+
+.soobchestvo{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 770px;
+    top: 100px;
+
+}
+
+.ogedonia{
+    position: absolute;
+width: 124px;
+height: 34px;
+left: 950px;
+top: 100px;
+}
+
+.help{
+    /* Поддержка */
+position: absolute;
+width: 135px;
+height: 34px;
+left: 1121px;
+top: 100px;
+}
+
+.down{
+    width: 100%;
+    height: 285px;
+    top: 3841px;
+background: #132130;
+}
+
+.text_footer{
+    position: relative;
+    width: 1545px;
+    height: 68px;
+    left: 305px;
+    top: -120px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.text_footer_one, .text_footer_two{
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text_footer_one{
+    position: relative;
+    width: 380px;
+    height: 34px;
+    left: 411px;
+    top: -50px;
+}
+
+.text_footer_two{
+    position: relative;
+    width: 275px;
+    height: 34px;
+    left: 871px;
+    top: -50px;
+}
+
+.logo_down{
+    position: relative;
+    width: 183px;
+    height: 157px;
+    left: 100px;
+    top: 50px;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 580px;
+    left: 0px;
+    top: 1px;
+    margin-bottom: 100px;
+
+    background: #2A475E;
+}
+
+.name{
+    position: relative;
+width: 286px;
+height: 101px;
+left: 600px;
+top: 100px;
+
+font-family: 'Rosarivo';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 101px;
+text-align: center;
+color: #000000;
+}
+
+.inf{
+    position: relative;
+    width: 286px;
+    height: 101px;
+    left: 600px;
+    top: 20px;
+    
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 101px;
+    text-align: center;
+    color: #999696;
+}
+
+.imager{
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    border: 10px solid #171a21;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.but{
+    position: absolute;
+    top: 460px;
+    left: 550px;
+}
+
+.inp{
+    position: absolute;
+    top: 460px;
+    left: 200px;
+}
+
+.profile:hover{
+    color: #93db2f;
+}
+.worcshop:hover{
+    color: #93db2f;
+}
+.soobchestvo:hover{
+    color: #93db2f;
+}
+.ogedonia:hover{
+    color: #93db2f;
+}
+.help:hover{
+    color: #93db2f;
+}

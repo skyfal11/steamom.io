@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>worcshop</title>
+<link rel="stylesheet" href="../profile/profile.css">
+<script src="script.js"></script> 
+<body>
+    <div class="header">
+        <div class="boxes"></div>
+        <img src="../img/gedonia.png" class="logo">
+                <div class="text">
+                    <a href="" class="profile">войти</a>
+                    <a href="../home/home.html" class="gedonia">Gedonia</a>
+                    <a href="../workshop/workshop.html" class="worcshop">Мастерская</a>
+                    <a href="../game/game.html" class="soobchestvo">Купить</a>
+                    <a href="../game/game.html#9" class="ogedonia">О Gedonia</a>
+                    <a href="" class="help">Поддержка</a>
+                 </div>
+         <img src="">
+         <div class="box__shadow"></div>        
+    </div>
+
+    <div class="box">
+        <h1 class="name">NAME</h1>
+        <h1 class="inf">informations</h1>
+        <div class="img_profile">
+            <div class="inp">
+                <input type="file" id="file1" />
+             </div>
+            <div class="but">
+                <button onclick="save()">Save</button>
+            </div>
+            <div class="imager">
+                <img id="image1" width="400px" height="400px" />
+            </div>
+            <br>
+            <script>
+                
+                function save ()  {
+                    let f = file1.files[0];
+                    if (f) {
+                        image1.src = URL.createObjectURL(f);
+                        localStorage.setItem('myImage', image1.src);
+                    }
+                }
+                
+                image1.src = localStorage.getItem('myImage')
+            </script>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="down">
+            <img src="../img/gedonia.png" class="logo_down">
+            <h1 class="text_footer">© GEDONIA. Все права защищены. Все торговые марки являются собственностью соответствующих владельцев в Nigeria и других странах. <br> Часть географических сведений на этом сайте предоставлена geonames.org.</h1>
+            <a href="../home/home.html#1" class="text_footer_one">Политика конфиденциальности</a>
+            <a href="../home/home.html#2" class="text_footer_two">Правовая информация</a>
+        </div>
+    </footer>
+</body>
+</html>

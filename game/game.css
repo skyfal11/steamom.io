@@ -1,0 +1,552 @@
+body{
+    background-color: #171a21;
+}
+.boxes{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+    
+    background: #1b2838;
+}
+
+.logo{
+    height: 150px; 
+    position: absolute;
+    width: 183px;
+    height: 157px;
+    left: 37px;
+    top: 30px;
+}
+ 
+
+.profile, .worcshop, .soobchestvo, .ogedonia, .help{
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.profile{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 1730px;
+    top: 10px;
+}
+
+.gedonia{
+    position: absolute;
+    width: 286px;
+    height: 101px;
+    left: 221px;
+    top: 50px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 101px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.worcshop{
+    position: absolute;
+    width: 141px;
+    height: 34px;
+    left: 582px;
+    top: 100px;
+}
+
+.soobchestvo{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 770px;
+    top: 100px;
+
+}
+
+.ogedonia{
+    position: absolute;
+width: 124px;
+height: 34px;
+left: 950px;
+top: 100px;
+}
+
+.help{
+    /* Поддержка */
+position: absolute;
+width: 135px;
+height: 34px;
+left: 1121px;
+top: 100px;
+}
+
+.down{
+    width: 100%;
+    height: 285px;
+    top: 3841px;
+background: #132130;
+}
+
+.text_footer{
+    position: relative;
+    width: 1545px;
+    height: 68px;
+    left: 305px;
+    top: -120px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}
+
+.text_footer_one, .text_footer_two{
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text_footer_one{
+    position: relative;
+    width: 380px;
+    height: 34px;
+    left: 411px;
+    top: -50px;
+}
+
+.text_footer_two{
+    position: relative;
+    width: 275px;
+    height: 34px;
+    left: 871px;
+    top: -50px;
+}
+
+.logo_down{
+    position: relative;
+    width: 183px;
+    height: 157px;
+    left: 100px;
+    top: 50px;
+}
+
+
+.vitriny{
+    position: relative;
+    width: 100%;
+    height: 960px;
+    top: 200px;
+    margin-bottom: 300px;
+    background: #2A475E;
+}
+
+.name{
+    position: absolute;
+    width: 311px;
+    height: 51px;
+    left: 129px;
+    top: -180px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.box{
+    position: relative;
+    width: 961px;
+    height: 767px;
+    left: 126px;
+    top: 100px;
+
+    background: #C4C4C4;
+}
+
+.name_game{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 1250px;
+    top: 100px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    
+    color: #FFFFFF;
+}
+
+.tage_game{
+    position: absolute;
+    width: 600px;
+    height: 51px;
+    left: 1250px;
+    top: 400px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    
+    color: #FFFFFF;
+}
+
+.inform_game{
+    position: absolute;
+    width: 400px;
+    height: 51px;
+    left: 1250px;
+    top: 600px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    
+    color: #FFFFFF;
+}
+
+.like{
+    
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    left: 139px;
+    top: 880px;
+    border: none;
+    background: none;
+    background-image: url("../img/like.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    cursor: pointer;
+}
+.like {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 9999999s;
+  }
+  
+  .like:active {
+    background-image: url("../img/like_green.png");
+    transition: background 0s;
+  }
+
+
+
+
+.dislike {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 9999999s;
+  }
+  
+  .dislike:active {
+    background-image: url("../img/like_red.png");
+    transition: background 0s;
+  }
+
+
+.dislike{
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    left: 240px;
+    top: 880px;
+    cursor: pointer;
+    user-select: none;
+
+    padding: 1em 2em;
+    border: none;
+    background: none;
+    background-image: url("../img/dislike.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.skip {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 9999999s;
+  }
+
+  .skip:active {
+    background-color: #35500f;
+    transition: background 0s;
+  }
+.skip{
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    left: 350px;
+    top: 880px;
+
+    border-radius: 40%;
+    background-color: #6da520;
+
+}
+
+.buy{
+    position: relative;
+    width: 1488px;
+    height: 231px;
+    left: 40px;
+    margin-bottom: 100px;
+
+    background: #2A475E;
+}
+
+.text_buy{
+    position: absolute;
+    width: 415px;
+    height: 67px;
+    left: 149px;
+    top: 40px;
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    
+
+    color: #FFFFFF;
+}
+
+.but_buy{
+    position: absolute;
+    width: 300px;
+    height: 82px;
+    left: 1063px;
+    top: 65px;
+
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    background: #6da520; /* Серый цвет фона */
+    text-decoration: none; /* Убираем подчёркивание */ 
+    transition: 0.4s;
+}
+
+.but_buy:hover{
+    background-color: #93db2f;
+}
+
+.but_buy_fod{
+    position: absolute;
+    width: 200px;
+    height: 82px;
+    left: 865px;
+    top: 65px;
+
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    background: #000000;
+}
+
+
+.opis{ 
+    position: relative;
+    width: 1311px;
+    height: 487px;
+    left: 40px;
+    margin-bottom: 100px;
+    
+
+    background: #2A475E;
+}
+
+.profile_one{
+    position: relative;
+    width: 442px;
+    height: 186px;
+    left: 1400px;
+    top: -5px;
+    background: #132130;
+    
+}
+.profile_list{
+    position: relative;
+    width: 405px;
+    height: 100px;
+    left: 1420px;
+    top: -150px;
+    background: #1b2838;
+    
+}
+
+.img_prof{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    left: 1280px;
+    top: -235px;
+}
+
+
+.profile_text{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 1550px;
+    top: -260px;
+
+
+    font-family: 'Rosarivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 51px;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.4s;
+}
+
+.profile_text:hover{
+    color: #93db2f;
+}
+
+.prof{
+    position: absolute;
+    top: -40px;
+    left: 1450px;
+    font-family: 'Rosarivo';
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 67px;
+    color: #C4C4C4;
+}
+
+.opis_gam{
+    position: absolute;
+    top: -25px;
+    left: 30px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 67px;
+    color: #000000;
+}
+
+
+.sale{
+    position: relative;
+    width: 442px;
+    height: 186px;
+    left: 1400px;
+    top: -100px;
+    background: #132130;
+}
+
+.pos, .biy, .izb{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 67px;
+    color: #C4C4C4;
+}
+
+.pos{
+    position: absolute;
+    width: 400px;
+    top: 250px;
+    left: 1420px;
+    font-family: 'Rosarivo';
+}
+.biy{
+    position: absolute;
+    width: 400px;
+    top: 300px;
+    left: 1420px;
+    font-family: 'Rosarivo';
+}
+.izb{
+    position: absolute;
+    width: 400px;
+    top: 350px;
+    left: 1455px;
+    font-family: 'Rosarivo';
+}
+
+.text_color_one{
+    color: aqua;
+}
+
+.text_ops{
+    position: absolute;
+    width: 1270px;
+    top: 50px;
+    left: 20px;
+
+    color: #C4C4C4;
+    font-size: 24px;
+    
+}
+.profile:hover{
+    color: #93db2f;
+}
+.worcshop:hover{
+    color: #93db2f;
+}
+.soobchestvo:hover{
+    color: #93db2f;
+}
+.ogedonia:hover{
+    color: #93db2f;
+}
+.help:hover{
+    color: #93db2f;
+}
